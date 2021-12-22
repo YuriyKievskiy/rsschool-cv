@@ -17,6 +17,7 @@ Have been working as a 3d vehicle artist for 5 years and I have always liked dig
 * Git
 * Adobe Photoshop
 
+
 ## Languages
 * English A2
 
