@@ -1,0 +1,245 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    max-width: 1024px;
+    margin: 20px auto;
+    background-color: #959595;
+}
+
+header{
+    border-bottom: 8px solid #dea814;
+}
+
+.header-container{
+    height: 300px;
+    margin: 20px 60px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.portraite{
+    margin-right: 25px;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #dea814;
+    justify-content: space-between;
+}
+
+.header_info{
+    margin-left: 40px;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid #dea814;
+}
+
+h1{
+    margin: 0;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+h3{
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+h4{
+    padding-left: 130px;
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.header-info p{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    color: #fff;
+}
+
+.left-column{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #333534;
+    
+}
+
+.left-column-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    background-color: #dea814;
+}
+
+.logo-Me{
+    margin-left: 25px;
+    padding: 5px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: #dea814;
+    background-color: #333534;
+}
+
+.ol, ul{
+    list-style: none;
+    padding: 0 50px;
+}
+
+.main li{
+    margin-left: 20px;
+}
+
+.left-column-box1 li{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.contacts li img {
+    margin: 0 15px 0 0;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.left-column-box1 li img{
+    margin: 0 15px 0 0;
+}
+
+.left-column-box1 li p{
+    font-size: 20px;
+    color: white;
+    display: inline;
+    vertical-align: middle;
+}
+
+.left-column-box1 li p a{
+    text-decoration: none;
+}
+
+.center-column{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dddbdc;
+}
+
+.center-column img{
+    border: 3px solid;
+    padding: 4px;
+    border-color: black;
+    border-radius: 50%;
+}
+
+.job-logo{
+    padding-top: 80px;
+    height: 140px;
+}
+.year1{
+    height: 240px;
+}
+
+.year2{
+    height: 195px;
+}
+
+.lang-logo{
+    height: 50px;
+}
+
+.rigt-column{
+    padding: 30px 0 0 40px;
+}
+
+hr{
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+
+.title1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+.title2{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.title3{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    color: #fff;
+}
+
+footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myGitHub img{
+    border: 3px solid;
+    border-color: #191919;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+footer  p{
+    margin: 0px;
+    font-size: 24px;
+    color: #fff;
+}
+
