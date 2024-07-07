@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSSchool-cv-html-Yuriy-Kievskiy</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div></div>
         <nav>
             <ul>
                 <li>about me</li>
@@ -20,17 +27,24 @@
     </header>
     <main>
         <div class = "LeftBlock">
-            <div class="Name">
-                <h1>Yuriy Kiyevskiy</h1>
+            <div class="NameQualification">
+                <h1>Yuriy <span class="FirstName"> Kiyevskiy</span></h1>
                 <h2>Junior Front-End Developer</h2>
             </div>
-            <div class="Software">
 
+            <div class="Software">
+                <img src="./cv-files/html5.png" alt="HTML logo">
+                <img src="./cv-files/css.png" alt="CSS logo">
+                <img src="./cv-files/js.png" alt="Javascript logo">
+                <img src="./cv-files/github.png" alt="Github logo">
+                <img src="./cv-files/ps.png" alt="Photoshop logo">
             </div>
         </div>
 
-        <div class = "Photo">
-            
+        <div class = "Portraite">
+            <div class = "PhotoContainer">
+                <img src="./cv-files/portraite.png" alt="Photo">
+            </div>
         </div>
 
         <div class = "RightBlock">
@@ -43,6 +57,24 @@
                         </p>
                     </div>
 
+                    <div>
+                        <p class="Title">contact:</p>
+                        <ul>
+                            <li>phone: +7(978) 594-52-33</li>
+                            <li>email: kievskiy.y.a@gmail.com</li>
+                            <li>skype: Yuriy Kievskiy</li>
+                            <li>github: </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="MidColumn">
+                    <div class="Sphere"></div>
+                    <div class="Line"></div>
+                    <div class="Sphere"></div>
+                </div>
+
+                <div class="RightColumn">
                     <div>
                         <p class="Title">job expirience:</p>
                         <p class="Years">2017 - 2019</p>
@@ -58,22 +90,11 @@
                             3D vehicle artist 
                             Cooperated with Wargaming, Gaijin.
                         </p>
-                    </div>
-                </div>
-    
-                <div class="RightColumn">
-                    <div>
-                        <p class="Title">contact:</p>
-                        <ul>
-                            <li>phone: +7(978) 594-52-33</li>
-                            <li>email: kievskiy.y.a@gmail.com</li>
-                            <li>skype: Yuriy Kievskiy</li>
-                            <li>github: </li>
-                        </ul>
+                        
                     </div>
 
                     <div>
-                        <p class="Languages">languages</p>
+                        <p class="Title">languages:</p>
                         <p>
                             English A2
                         </p>
@@ -82,15 +103,20 @@
             </div>
             
             <div class="RightBlockDown">
+                <p class="Title">soft skills:</p>
                 <p>Большой опыт работы в команде, стресоустойчивый, умею сосредоточится на главном, активный, пунктуальный, систематически работаю над повышением личного уровня профессиональной подготовки.</p>
             </div>
             
         </div>
     </main>
     <footer>
-        <p>&#169; 2024</p>
-        <a href="https://github.com/YuriyKievskiy">yuriy kiyevskiy</a>
-        <a href="https://rs.school/courses/javascript-preschool-ru"><img src="./cv-files/RSSchoolJS.png" alt="RSSchool logo"></a>
+        <section class="FooterGitLink">
+            <p>&#169; 2024</p>
+        </section>
+        <section class="RSSchoolLogo">
+            <a href="https://github.com/YuriyKievskiy">yuriykiyevskiy</a>
+            <a href="https://rs.school/courses/javascript-ru"><img src="./cv-files/RSSchoolJS.png" alt="RSSchool logo"></a>
+        </section>
     </footer>
 </body>
 </html>

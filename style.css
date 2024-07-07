@@ -1,0 +1,338 @@
+
+/* ========================= RESET DEFOULT SETTINGS ==========================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0, auto;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration:none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ================================== CSS ===================================*/
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    font-family: "Raleway", sans-serif;
+    color: #3f402e;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* ================================== MAIN ===================================*/
+main{
+    display: flex;
+    justify-content: flex-start;
+    height: 800px;
+    width: 100%;
+
+}
+
+/* =================================== HEADER =================================*/
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header div{
+    width :30%
+}
+
+header nav{
+    width :70%;
+    background-color: #d7dad3;
+}
+
+header ul{
+    padding-right: 5%;
+    
+}
+
+header li{
+    padding-left: 3%;
+
+    /* font-weight: 500; */
+    color: #fff;
+    /* color: #3f402e; */
+    text-decoration: underline;
+}
+
+/* =================================== PHOTO =================================*/
+
+.Portraite{
+    position: absolute;
+    margin-left: 150px;
+}
+
+.PhotoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.Portraite img{
+    width: 90%;
+}
+
+
+/* ================================= LEFT BLOCK ===============================*/
+.LeftBlock{
+    display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+
+    width: 30%;
+
+    background-color: #fff;
+}
+
+.NameQualification{
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    transform: rotate(-90deg);
+
+    height: 50%;
+    width: 100%;
+}
+
+.Software{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+
+.Software img{
+    width: 50px;
+}
+
+h1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.FirstName{
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.Qualification{
+    display: flex;
+}
+
+/* ================================= RIGHT BLOCK ===============================*/
+
+.RightBlock{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    height: 100%;
+    width: 70%;
+    background-color: #d7dad3;
+
+    font-size: 14px;
+}
+
+.RightBlockTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.LeftColumn{
+    width: 45%;
+    padding-left: 10%;
+}
+
+.LeftColumn ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.LeftColumn ul li{
+    padding-bottom: 4px;
+}
+
+.LeftColumn div{
+    margin-bottom: 20px;
+}
+
+.LeftColumn p{
+    text-align: right;
+}
+
+.MidColumn{
+    width: 10%;
+}
+
+.RightColumn{
+    width: 45%;
+    padding-right: 10%;
+}
+
+.RightColumn div{
+    margin-bottom: 20px;
+}
+
+.Title{
+    font-family: "Kanit", sans-serif;;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+/* =============================== MIDLLE BLOCK ================================*/
+
+.MidColumn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2%;
+}
+
+.Sphere{
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.Line{
+    background-color: #fff;
+    height: 61%;
+    width: 3px;
+}
+
+/* ============================= RIGHT BLOCK DOWN ==============================*/
+
+.RightBlockDown{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.RightBlockDown .Title{
+    text-align: center;
+}
+
+/* =================================== FOTER ===================================*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+
+.FooterGitLink{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    width: 30%;
+    background-color: #fff;
+    color: #3f402e;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.FooterGitLink p{
+    padding-right: 2%;
+}
+
+.RSSchoolLogo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    width: 70%;
+    background-color: #d7dad3;
+}
+
+.RSSchoolLogo a{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    padding-left: 1%;
+    padding-right: 10%;
+    color: #3f402e;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.RSSchoolLogo img{
+    width: 25%;
+}
